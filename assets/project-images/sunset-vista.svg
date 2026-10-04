@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunsetBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#14142b"/>
+      <stop offset="100%" stop-color="#090d16"/>
+    </linearGradient>
+    <linearGradient id="warmAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="resortCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e38" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#121226" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glowWarm" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#sunsetBg)"/>
+  
+  <!-- Ambient Warm Glows -->
+  <circle cx="250" cy="200" r="220" fill="#f59e0b" opacity="0.08" filter="url(#glowWarm)"/>
+  <circle cx="950" cy="550" r="240" fill="#f43f5e" opacity="0.06" filter="url(#glowWarm)"/>
+
+  <!-- Top Header Bar -->
+  <rect x="40" y="40" width="1120" height="60" rx="12" fill="#18182f" stroke="rgba(255,255,255,0.08)"/>
+  <text x="70" y="76" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="18">🌅 SUNSET VISTA RESORT</text>
+  <text x="360" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Luxury Suites</text>
+  <text x="475" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Availability Calendar</text>
+  <text x="635" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Dining &amp; Spa</text>
+  <text x="755" y="75" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Admin Portal</text>
+  
+  <rect x="970" y="52" width="165" height="36" rx="8" fill="url(#warmAccent)"/>
+  <text x="1000" y="75" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">Book Now ↗</text>
+
+  <!-- Main Booking Search Bar (Flatpickr.js Simulation) -->
+  <rect x="40" y="115" width="1120" height="85" rx="12" fill="#18182f" stroke="rgba(245, 158, 11, 0.3)"/>
+  <g transform="translate(65, 130)">
+    <text x="0" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">CHECK-IN / OUT (FLATPICKR)</text>
+    <text x="0" y="46" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">Oct 14, 2026 — Oct 18, 2026</text>
+  </g>
+  <line x1="330" y1="130" x2="330" y2="185" stroke="rgba(255,255,255,0.1)"/>
+  
+  <g transform="translate(360, 130)">
+    <text x="0" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">GUESTS &amp; ROOMS</text>
+    <text x="0" y="46" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">2 Adults • 1 Deluxe Villa</text>
+  </g>
+  <line x1="610" y1="130" x2="610" y2="185" stroke="rgba(255,255,255,0.1)"/>
+
+  <g transform="translate(640, 130)">
+    <text x="0" y="20" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">DYNAMIC RATE + GST</text>
+    <text x="0" y="46" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">₹ 8,450 / night + 18% GST</text>
+  </g>
+
+  <rect x="940" y="132" width="195" height="50" rx="8" fill="url(#warmAccent)"/>
+  <text x="970" y="162" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="14">Check Availability</text>
+
+  <!-- Left: Featured Room Card -->
+  <rect x="40" y="220" width="545" height="490" rx="12" fill="url(#resortCard)" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="55" y="235" width="515" height="230" rx="8" fill="#252545"/>
+  <circle cx="312" cy="350" r="40" fill="url(#warmAccent)" opacity="0.6"/>
+  <text x="312" y="358" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="24">🏔️</text>
+  <text x="312" y="420" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="15">Himalayan View Royal Suite</text>
+
+  <text x="65" y="500" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18">Himalayan Panorama Suite</text>
+  <text x="65" y="530" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">King Bed • Mountain View Balcony • Jacuzzi • Free Wi-Fi</text>
+  <text x="65" y="565" fill="#f59e0b" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="22">₹ 9,999 <tspan fill="#94a3b8" font-size="12" font-weight="400">/ night (+GST verified)</tspan></text>
+  
+  <rect x="65" y="625" width="220" height="42" rx="8" fill="url(#warmAccent)"/>
+  <text x="110" y="651" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">Reserve Instant</text>
+  <rect x="295" y="625" width="120" height="42" rx="8" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+  <text x="325" y="651" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="13">Details</text>
+
+  <!-- Right: Admin Management & Email Notification Panel -->
+  <rect x="615" y="220" width="545" height="490" rx="12" fill="url(#resortCard)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="640" y="260" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18">Admin Room &amp; Dynamic Pricing Engine</text>
+
+  <!-- Feature Tags -->
+  <g transform="translate(640, 280)">
+    <rect x="0" y="0" width="155" height="26" rx="13" fill="rgba(16, 185, 129, 0.15)"/>
+    <text x="12" y="17" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">✓ Server-Side Price Verification</text>
+    
+    <rect x="165" y="0" width="135" height="26" rx="13" fill="rgba(56, 189, 248, 0.15)"/>
+    <text x="177" y="17" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">📧 Booking Confirmation</text>
+
+    <rect x="310" y="0" width="140" height="26" rx="13" fill="rgba(244, 63, 94, 0.15)"/>
+    <text x="322" y="17" fill="#f43f5e" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">🔔 Real-Time Notifications</text>
+  </g>
+
+  <!-- Booking Matrix -->
+  <rect x="640" y="325" width="495" height="260" rx="8" fill="#121224" stroke="rgba(255,255,255,0.05)"/>
+  <text x="660" y="360" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">RECENT CONFIRMED BOOKINGS</text>
+
+  <line x1="660" y1="380" x2="1115" y2="380" stroke="rgba(255,255,255,0.05)"/>
+  <text x="660" y="410" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">Vikram Malhotra</text>
+  <text x="660" y="428" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Deluxe Suite (3 Nights) • Transactional Email Sent</text>
+  <text x="1025" y="415" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 35,396</text>
+
+  <line x1="660" y1="445" x2="1115" y2="445" stroke="rgba(255,255,255,0.05)"/>
+  <text x="660" y="475" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">Ananya Sharma</text>
+  <text x="660" y="493" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Valley Villa (2 Nights) • Transactional Email Sent</text>
+  <text x="1025" y="480" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 21,240</text>
+
+  <line x1="660" y1="510" x2="1115" y2="510" stroke="rgba(255,255,255,0.05)"/>
+  <text x="660" y="540" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">Rajesh Gupta</text>
+  <text x="660" y="558" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">Panorama Suite (4 Nights) • Transactional Email Sent</text>
+  <text x="1025" y="545" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 47,195</text>
+
+  <!-- Stack info -->
+  <rect x="640" y="625" width="495" height="45" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)"/>
+  <text x="660" y="652" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Stack: Laravel • MySQL • Bootstrap • JavaScript • Flatpickr.js</text>
+</svg>

@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Aryan Aswal | PHP Laravel & Full-Stack Web Developer</title>
+  <meta name="title" content="Aryan Aswal | PHP Laravel & Full-Stack Web Developer">
+  <meta name="description" content="Portfolio of Aryan Aswal, a B.Sc. IT graduate and Web Developer specializing in PHP, Laravel, MySQL, JavaScript, Blade, and Full-Stack Web Development.">
+  <meta name="keywords" content="Aryan Aswal, PHP Developer, Laravel Developer, Full Stack Developer, Web Developer, MySQL, JavaScript, Bootstrap 5, Tailwind CSS, Alpine.js, Uttaranchal University, Portfolio, Dehradun">
+  <meta name="author" content="Aryan Aswal">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#090d16">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aryanaswal3-source.github.io/Aryan_Aswal_Portfolio/">
+  <meta property="og:title" content="Aryan Aswal | PHP Laravel & Full-Stack Web Developer">
+  <meta property="og:description" content="B.Sc. IT graduate and Web Developer with hands-on experience building database-driven applications, 15+ module Laravel admin dashboards, and responsive web solutions.">
+  <meta property="og:image" content="assets/project-images/loanbazzi.jpg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Aryan Aswal | PHP Laravel & Full-Stack Web Developer">
+  <meta property="twitter:description" content="B.Sc. IT graduate and Web Developer specializing in PHP, Laravel, MySQL, JavaScript, and database-driven web applications.">
+  <meta property="twitter:image" content="assets/project-images/loanbazzi.jpg">
+
+  <!-- Favicon SVG Data URI for instant crisp loading -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='100%25' stop-color='%236366f1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='24' fill='%23090d16'/%3E%3Cpath d='M25 75 L50 25 L75 75 L60 75 L50 52 L40 75 Z' fill='url(%23g)'/%3E%3Ccircle cx='50' cy='38' r='5' fill='%2338bdf8'/%3E%3C/svg%3E">
+
+  <!-- Google Fonts Preconnect & Stylesheet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Ambient Background Glows -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+
+  <!-- Header & Navigation -->
+  <header id="navbar" class="site-header">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand" aria-label="Aryan Aswal Portfolio Home">
+        <span class="brand-code">&lt;</span>
+        <span class="brand-name">Aryan Aswal</span>
+        <span class="brand-code">/&gt;</span>
+        <span class="brand-status-dot" title="Available for work"></span>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA -->
+      <div class="nav-actions">
+        <a href="assets/Aryan-Aswal-CV.pdf" download="Aryan-Aswal-CV.pdf" target="_blank" class="btn btn-sm btn-cv" aria-label="Download Aryan Aswal CV">
+          <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download CV</span>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button id="mobile-menu-toggle" class="hamburger-btn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobile-nav-drawer">
+          <span class="hamburger-line line-1"></span>
+          <span class="hamburger-line line-2"></span>
+          <span class="hamburger-line line-3"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Drawer -->
+    <div id="mobile-nav-drawer" class="mobile-nav" aria-hidden="true">
+      <ul class="mobile-menu-list">
+        <li><a href="#home" class="mobile-link">Home</a></li>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#experience" class="mobile-link">Experience</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#education" class="mobile-link">Education</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li class="mobile-cv-item">
+          <a href="assets/Aryan-Aswal-CV.pdf" download="Aryan-Aswal-CV.pdf" target="_blank" class="btn btn-primary w-full">
+            <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download CV</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- ========================================== -->
+    <!-- HERO SECTION -->
+    <!-- ========================================== -->
+    <section id="home" class="hero-section section-padding">
+      <div class="container hero-grid">
+        
+        <!-- Hero Content (Left) -->
+        <div class="hero-content reveal-on-scroll">
+          <div class="badge-status">
+            <span class="pulse-indicator"></span>
+            <span>Seeking Junior Web / PHP / Full-Stack Developer Roles</span>
+          </div>
+
+          <p class="hero-eyebrow">HELLO, I'M</p>
+          <h1 class="hero-title">
+            <span class="name-gradient">Aryan Aswal</span>
+          </h1>
+
+          <div class="role-wrapper">
+            <span class="role-prefix">I am a </span>
+            <span id="typed-role" class="typed-text" data-roles='["PHP & Laravel Developer", "Full-Stack Web Developer", "Database & API Specialist", "B.Sc. IT Graduate"]'>PHP &amp; Laravel Developer</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            B.Sc. IT graduate and Web Developer with hands-on experience building responsive, database-driven, and user-focused web applications with PHP, Laravel, MySQL, and JavaScript. Contributed to a 15+ module Laravel admin dashboard during industry internship.
+          </p>
+
+          <!-- Tech Stack Pills -->
+          <div class="hero-tech-stack">
+            <span class="tech-pill"><span class="pill-dot php-dot"></span>PHP</span>
+            <span class="tech-pill"><span class="pill-dot laravel-dot"></span>Laravel</span>
+            <span class="tech-pill"><span class="pill-dot mysql-dot"></span>MySQL</span>
+            <span class="tech-pill"><span class="pill-dot js-dot"></span>JavaScript</span>
+            <span class="tech-pill"><span class="pill-dot bootstrap-dot"></span>Bootstrap 5</span>
+            <span class="tech-pill"><span class="pill-dot tailwind-dot"></span>Tailwind CSS</span>
+            <span class="tech-pill"><span class="pill-dot alpine-dot"></span>Alpine.js</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+
+            <a href="assets/Aryan-Aswal-CV.pdf" download="Aryan-Aswal-CV.pdf" target="_blank" class="btn btn-secondary">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </a>
+          </div>
+
+          <!-- Social Links -->
+          <div class="hero-socials">
+            <span class="socials-label">Connect with me:</span>
+            <div class="social-links-row">
+              <a href="https://wa.me/919368545116?text=Hi%20Aryan,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" class="social-btn social-btn-whatsapp" aria-label="Chat with Aryan Aswal on WhatsApp" title="WhatsApp: +91 9368545116">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+              </a>
+
+              <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Aryan Aswal GitHub Profile" title="GitHub: aryanaswal3-source">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/aryan-aswal-0074612a2/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Aryan Aswal LinkedIn Profile" title="LinkedIn: Aryan Aswal">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+
+              <a href="mailto:aryanaswal3@gmail.com" class="social-btn" aria-label="Send Email to Aryan Aswal" title="Email: aryanaswal3@gmail.com">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </a>
+
+              <a href="tel:9368545116" class="social-btn" aria-label="Call Aryan Aswal" title="Call: +91 9368545116">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Image & Interactive Tech Badges (Right) -->
+        <div class="hero-visual reveal-on-scroll">
+          <div class="profile-card-wrapper">
+            <!-- Animated Glow Rings -->
+            <div class="glow-ring glow-ring-outer"></div>
+            <div class="glow-ring glow-ring-inner"></div>
+
+            <!-- Profile Image Container -->
+            <div class="profile-img-container">
+              <img src="assets/profile.jpg" alt="Aryan Aswal - PHP & Laravel Developer" class="profile-img" onerror="this.classList.add('fallback-mode'); this.style.display='none'; document.getElementById('profile-avatar-fallback').style.display='flex';" loading="eager">
+              
+              <!-- Clean SVG Avatar Fallback if profile.jpg is being loaded -->
+              <div id="profile-avatar-fallback" class="profile-fallback-avatar" style="display:none;" aria-label="Aryan Aswal Avatar">
+                <svg viewBox="0 0 200 200" fill="none" class="avatar-svg" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.9"/>
+                      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.9"/>
+                    </linearGradient>
+                  </defs>
+                  <circle cx="100" cy="100" r="95" fill="#121a2d" stroke="url(#avatarGrad)" stroke-width="3"/>
+                  <circle cx="100" cy="72" r="34" fill="url(#avatarGrad)"/>
+                  <path d="M40 165 C40 120, 160 120, 160 165 Z" fill="url(#avatarGrad)"/>
+                  <text x="100" y="105" text-anchor="middle" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="28">AA</text>
+                </svg>
+              </div>
+
+              <div class="profile-overlay-gradient"></div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-php" title="PHP Backend Development">
+              <span class="badge-icon">🐘</span>
+              <span class="badge-text">PHP</span>
+            </div>
+
+            <div class="floating-badge badge-laravel" title="Laravel MVC Framework">
+              <span class="badge-icon">⚡</span>
+              <span class="badge-text">Laravel</span>
+            </div>
+
+            <div class="floating-badge badge-js" title="JavaScript Frontend & Async">
+              <span class="badge-icon">🟨</span>
+              <span class="badge-text">JavaScript</span>
+            </div>
+
+            <div class="floating-badge badge-mysql" title="MySQL Relational Database">
+              <span class="badge-icon">🐬</span>
+              <span class="badge-text">MySQL</span>
+            </div>
+
+            <!-- Experience Badge Pill -->
+            <div class="profile-meta-card">
+              <div class="meta-icon">🎓</div>
+              <div class="meta-info">
+                <span class="meta-title">B.Sc. IT (2026)</span>
+                <span class="meta-sub">Uttaranchal University</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- ABOUT SECTION -->
+    <!-- ========================================== -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Dedicated to building clean, maintainable, and high-performance database-driven web applications</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative (Left) -->
+          <div class="about-narrative card-glass reveal-on-scroll">
+            <h3 class="narrative-heading">
+              Hi, I'm <span class="highlight-cyan">Aryan Aswal</span> — Web Developer &amp; PHP / Laravel Specialist
+            </h3>
+            
+            <p class="narrative-text">
+              I am a <strong>B.Sc. Information Technology graduate (2026)</strong> from <strong>Uttaranchal University</strong> with hands-on experience in <strong>PHP, Laravel, MySQL, JavaScript, HTML5, CSS3, Bootstrap 5, Tailwind CSS, and Alpine.js</strong>.
+            </p>
+
+            <p class="narrative-text">
+              I have built database-driven web applications and admin dashboards featuring <strong>session authentication, full CRUD operations, role-based permissions, file/document uploads, reporting modules, and responsive UI</strong>. During my 3-month internship at Tulyarth Pvt. Ltd., I actively contributed to the Travancore Portal — an enterprise 15+ module Laravel microfinance platform.
+            </p>
+
+            <p class="narrative-text">
+              I enjoy creating practical real-world applications, structuring optimized relational databases, writing clean MVC architecture, and solving challenging software engineering problems.
+            </p>
+
+            <!-- Focus Pills -->
+            <div class="about-focus-tags">
+              <span class="focus-tag">⚡ Laravel MVC &amp; Blade</span>
+              <span class="focus-tag">🗄️ MySQL &amp; Eloquent ORM</span>
+              <span class="focus-tag">🔒 Role-Based Permissions &amp; Auth</span>
+              <span class="focus-tag">📊 MIS Reports &amp; Export Tools</span>
+              <span class="focus-tag">📱 Responsive UI (Bootstrap / Tailwind)</span>
+              <span class="focus-tag">🔄 Git &amp; Shared Workflows</span>
+            </div>
+          </div>
+
+          <!-- Stats & Quick Facts (Right) -->
+          <div class="about-stats-column reveal-on-scroll">
+            
+            <div class="stats-grid">
+              <div class="stat-card card-glass">
+                <div class="stat-number-wrapper">
+                  <span class="stat-number counter" data-target="7">0</span>
+                  <span class="stat-plus">+</span>
+                </div>
+                <span class="stat-title">Featured Projects</span>
+                <p class="stat-desc">Admin dashboards, booking platforms &amp; web apps</p>
+              </div>
+
+              <div class="stat-card card-glass">
+                <div class="stat-number-wrapper">
+                  <span class="stat-number counter" data-target="15">0</span>
+                  <span class="stat-plus">+</span>
+                </div>
+                <span class="stat-title">Dashboard Modules</span>
+                <p class="stat-desc">Engineered in live Laravel microfinance portal</p>
+              </div>
+
+              <div class="stat-card card-glass">
+                <div class="stat-number-wrapper">
+                  <span class="stat-number counter" data-target="2">0</span>
+                  <span class="stat-plus"></span>
+                </div>
+                <span class="stat-title">Industry Internships</span>
+                <p class="stat-desc">Tulyarth Pvt. Ltd. &amp; Ensino R&amp;D</p>
+              </div>
+
+              <div class="stat-card card-glass highlight-stat">
+                <div class="stat-status-dot"></div>
+                <span class="stat-title">Open to Opportunities</span>
+                <p class="stat-desc">Ready for Junior Web / PHP / Full-Stack Roles</p>
+              </div>
+            </div>
+
+            <!-- Quick Details Info Card -->
+            <div class="quick-info-card card-glass">
+              <div class="info-row">
+                <span class="info-icon">📍</span>
+                <div class="info-details">
+                  <span class="info-label">Location</span>
+                  <span class="info-value">Dehradun, Uttarakhand, India</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <span class="info-icon">🎓</span>
+                <div class="info-details">
+                  <span class="info-label">Education</span>
+                  <span class="info-value">B.Sc. IT • Uttaranchal University (CGPA: 6.2)</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <span class="info-icon">✉️</span>
+                <div class="info-details">
+                  <span class="info-label">Email</span>
+                  <span class="info-value">aryanaswal3@gmail.com</span>
+                </div>
+              </div>
+              <div class="info-row">
+                <span class="info-icon">📞</span>
+                <div class="info-details">
+                  <span class="info-label">Phone</span>
+                  <span class="info-value">+91 9368545116 / 7830559051</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SKILLS SECTION -->
+    <!-- ========================================== -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Technical Arsenal</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Proficiencies based on hands-on project engineering and industry internship experience</p>
+        </div>
+
+        <div class="skills-categories-grid">
+
+          <!-- 1. Backend Engineering -->
+          <div class="skill-category-card card-glass reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box cat-backend">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Backend &amp; Frameworks</h3>
+                <span class="category-meta">Server Logic, MVC &amp; APIs</span>
+              </div>
+            </div>
+
+            <div class="skills-pill-grid">
+              <div class="skill-item highlight-skill">
+                <span class="skill-icon">🐘</span>
+                <span class="skill-name">PHP</span>
+              </div>
+              <div class="skill-item highlight-skill">
+                <span class="skill-icon">⚡</span>
+                <span class="skill-name">Laravel</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🗡️</span>
+                <span class="skill-name">Blade Templating</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🌬️</span>
+                <span class="skill-name">Laravel Breeze</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🟢</span>
+                <span class="skill-name">Node.js</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🔌</span>
+                <span class="skill-name">RESTful APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Frontend Development -->
+          <div class="skill-category-card card-glass reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box cat-frontend">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Frontend &amp; UI Design</h3>
+                <span class="category-meta">Responsive Client Interfaces</span>
+              </div>
+            </div>
+
+            <div class="skills-pill-grid">
+              <div class="skill-item">
+                <span class="skill-icon">🌐</span>
+                <span class="skill-name">HTML5</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🎨</span>
+                <span class="skill-name">CSS3</span>
+              </div>
+              <div class="skill-item highlight-skill">
+                <span class="skill-icon">⚡</span>
+                <span class="skill-name">JavaScript (ES6+)</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🅱️</span>
+                <span class="skill-name">Bootstrap 5</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🌊</span>
+                <span class="skill-name">Tailwind CSS</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🏔️</span>
+                <span class="skill-name">Alpine.js</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">⚛️</span>
+                <span class="skill-name">React</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🧊</span>
+                <span class="skill-name">Three.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Database Management -->
+          <div class="skill-category-card card-glass reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box cat-database">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Database &amp; Data Layer</h3>
+                <span class="category-meta">Relational Data &amp; Queries</span>
+              </div>
+            </div>
+
+            <div class="skills-pill-grid">
+              <div class="skill-item highlight-skill">
+                <span class="skill-icon">🐬</span>
+                <span class="skill-name">MySQL</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">✨</span>
+                <span class="skill-name">Eloquent ORM</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🔗</span>
+                <span class="skill-name">SQL JOINs &amp; Subqueries</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">📑</span>
+                <span class="skill-name">phpMyAdmin</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Tools & Core Concepts -->
+          <div class="skill-category-card card-glass reveal-on-scroll">
+            <div class="category-header">
+              <div class="category-icon-box cat-tools">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Tools &amp; Core Concepts</h3>
+                <span class="category-meta">Workflow &amp; Architecture</span>
+              </div>
+            </div>
+
+            <div class="skills-pill-grid">
+              <div class="skill-item">
+                <span class="skill-icon">🌿</span>
+                <span class="skill-name">Git</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🐙</span>
+                <span class="skill-name">GitHub</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">💻</span>
+                <span class="skill-name">VS Code</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">⚡</span>
+                <span class="skill-name">Vite</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🎼</span>
+                <span class="skill-name">Composer</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🟠</span>
+                <span class="skill-name">XAMPP</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">🔒</span>
+                <span class="skill-name">Auth &amp; RBAC</span>
+              </div>
+              <div class="skill-item">
+                <span class="skill-icon">📁</span>
+                <span class="skill-name">File Storage</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- SERVICES SECTION ("What I Can Build") -->
+    <!-- ========================================== -->
+    <section id="services" class="services-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Capabilities</span>
+          <h2 class="section-title">What I Can Build</h2>
+          <p class="section-subtitle">Delivering end-to-end web engineering from database design to intuitive client experiences</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Card 1: Web Development -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">
+              Custom web applications built with semantic HTML5, modern CSS3, and JavaScript, ensuring fast load speeds, cross-browser compatibility, and seamless navigation.
+            </p>
+            <div class="service-tags">
+              <span>Full-Stack</span>
+              <span>Clean Code</span>
+              <span>SEO-Friendly</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Laravel Applications -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="service-title">Laravel Applications</h3>
+            <p class="service-desc">
+              Structured MVC web applications utilizing Laravel's Eloquent ORM, Blade templating, authentication systems, routing, and modular controller architecture.
+            </p>
+            <div class="service-tags">
+              <span>Laravel</span>
+              <span>MVC</span>
+              <span>Eloquent</span>
+            </div>
+          </div>
+
+          <!-- Card 3: PHP Backend Development -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">PHP Backend Development</h3>
+            <p class="service-desc">
+              Secure, server-side scripting with Object-Oriented PHP, handling session management, business logic validation, form processing, and secure file uploads.
+            </p>
+            <div class="service-tags">
+              <span>OOP PHP</span>
+              <span>Security</span>
+              <span>Validation</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Database-driven Applications -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="service-title">Database-driven Applications</h3>
+            <p class="service-desc">
+              Designing optimized MySQL schemas, foreign key relations, indexing, and executing robust CRUD operations with SQL injection prevention.
+            </p>
+            <div class="service-tags">
+              <span>MySQL</span>
+              <span>Schema Design</span>
+              <span>CRUD</span>
+            </div>
+          </div>
+
+          <!-- Card 5: Responsive Websites -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                <line x1="12" y1="18" x2="12.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Responsive Websites</h3>
+            <p class="service-desc">
+              Mobile-first responsive web design ensuring pixel-perfect display across smartphone screens, tablets, laptops, and ultra-wide desktop monitors.
+            </p>
+            <div class="service-tags">
+              <span>Mobile-First</span>
+              <span>CSS Flex/Grid</span>
+              <span>Cross-Browser</span>
+            </div>
+          </div>
+
+          <!-- Card 6: REST API Integration -->
+          <div class="service-card card-glass reveal-on-scroll">
+            <div class="service-icon-wrapper">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">REST API Integration</h3>
+            <p class="service-desc">
+              Creating and consuming RESTful endpoints with JSON data exchange, error handling, asynchronous AJAX/Fetch calls, and third-party API connectivity.
+            </p>
+            <div class="service-tags">
+              <span>REST APIs</span>
+              <span>JSON</span>
+              <span>Fetch/AJAX</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- EXPERIENCE SECTION -->
+    <!-- ========================================== -->
+    <section id="experience" class="experience-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Career History</span>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-subtitle">Hands-on practical industry experience with enterprise workflows and production codebases</p>
+        </div>
+
+        <div class="timeline-wrapper reveal-on-scroll">
+          
+          <!-- Experience 1: Tulyarth Pvt. Ltd. -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+
+            <div class="timeline-content card-glass">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Web Development Intern</h3>
+                  <h4 class="timeline-company">Tulyarth Pvt. Ltd. / Tulyarth Group</h4>
+                </div>
+                <div class="timeline-badge">
+                  <span>3 Months Internship</span>
+                </div>
+              </div>
+
+              <p class="timeline-description">
+                "Worked on web development projects and gained practical experience with modern web technologies, development workflows and real-world project requirements."
+              </p>
+
+              <div class="timeline-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-icon">✓</span>
+                  <span>Worked in a team with a senior developer on the <strong>Travancore Portal</strong>, a modular Laravel dashboard for an NBFC/microfinance platform.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-icon">✓</span>
+                  <span>Built Blade/Bootstrap 5 screens across Transaction, Account Panel, Utility, MIS Reports, User Management, Configuration, and Correction Panel modules, including filters, report tables, and voucher/loan forms.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-icon">✓</span>
+                  <span>Designed the custom login page and redesigned the dashboard UI; resolved route, module-registration, and merge issues in a shared Git codebase.</span>
+                </div>
+              </div>
+
+              <div class="timeline-tech-tags">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">PHP</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Blade</span>
+                <span class="tech-tag">Bootstrap 5</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Git</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Ensino Research and Development Pvt. Ltd. -->
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+              <div class="timeline-line"></div>
+            </div>
+
+            <div class="timeline-content card-glass">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Summer Intern — Front-End &amp; Web Development</h3>
+                  <h4 class="timeline-company">Ensino Research and Development Pvt. Ltd.</h4>
+                </div>
+                <div class="timeline-badge">
+                  <span>June 2025 – July 2025</span>
+                </div>
+              </div>
+
+              <p class="timeline-description">
+                "Worked on front-end and web development tasks using HTML, CSS and JavaScript in a professional setting."
+              </p>
+
+              <div class="timeline-highlights">
+                <div class="highlight-bullet">
+                  <span class="bullet-icon">✓</span>
+                  <span>Engineered responsive, accessible UI components adhering to cross-browser standards.</span>
+                </div>
+                <div class="highlight-bullet">
+                  <span class="bullet-icon">✓</span>
+                  <span>Collaborated with team leads to optimize client-facing layouts and web performance.</span>
+                </div>
+              </div>
+
+              <div class="timeline-tech-tags">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- PROJECTS SECTION -->
+    <!-- ========================================== -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Portfolio Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real-world applications spanning enterprise Laravel dashboards, fintech, property platforms, resort bookings, and interactive web experiences</p>
+        </div>
+
+        <!-- Project Filter Tabs -->
+        <div class="project-filters reveal-on-scroll" role="tablist" aria-label="Project category filter">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button class="filter-btn" data-filter="laravel" role="tab" aria-selected="false">Laravel</button>
+          <button class="filter-btn" data-filter="php" role="tab" aria-selected="false">PHP</button>
+          <button class="filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend</button>
+          <button class="filter-btn" data-filter="react" role="tab" aria-selected="false">React</button>
+          <button class="filter-btn" data-filter="personal" role="tab" aria-selected="false">Personal</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-container">
+          
+          <!-- PROJECT 1: Travancore Portal (From Resume) -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="laravel php">
+            <div class="project-thumb">
+              <img src="assets/project-images/travancore-portal.svg" alt="Travancore Portal Laravel Admin Dashboard UI" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Enterprise Dashboard</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">NBFC / Microfinance Platform</span>
+              </div>
+
+              <h3 class="project-title">Travancore Portal</h3>
+              
+              <p class="project-desc">
+                Built a modular admin dashboard for an NBFC/microfinance platform with 15+ modules including Transaction Management, Accounting, User Management, and MIS Reporting with Excel/PDF export and role-based permissions.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Blade</span>
+                <span class="tech-tag">Bootstrap 5</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Laravel Breeze</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <span class="project-status-note">🔒 Proprietary Enterprise Internship Project</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 2: ProDesk -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="laravel php frontend">
+            <div class="project-thumb">
+              <img src="assets/project-images/prodesk.jpg" alt="ProDesk Property Management Platform UI" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Real-Estate Platform</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Property Catalogue Platform</span>
+              </div>
+
+              <h3 class="project-title">ProDesk</h3>
+              
+              <p class="project-desc">
+                Built a digital showroom for property dealers with authentication, property CRUD, ownership-based authorization, and photo/video upload with cover-photo selection and SaaS-style interface.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Blade</span>
+                <span class="tech-tag">Breeze</span>
+                <span class="tech-tag">Alpine.js</span>
+                <span class="tech-tag">Vite</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/aryanaswal3-source/ProDesk.git" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" aria-label="View ProDesk on GitHub">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 3: LoanBazzi -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="php laravel frontend">
+            <div class="project-thumb">
+              <img src="assets/project-images/loanbazzi.jpg" alt="LoanBazzi Fintech Website Interface" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Fintech Website</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Fintech Web Application</span>
+              </div>
+
+              <h3 class="project-title">LoanBazzi</h3>
+              
+              <p class="project-desc">
+                A modern fintech website built using reusable Blade layouts and partials (header, footer, about page) with a consistent branded theme and user-friendly interface.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">Blade</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">PHP</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://www.loanbazzi.com/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" aria-label="Visit LoanBazzi Live Demo">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 4: Laravel Student Tracker -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="laravel php">
+            <div class="project-thumb">
+              <img src="assets/project-images/student-tracker.jpg" alt="Laravel Student Tracker Dashboard UI" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Academic System</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Student Management System</span>
+              </div>
+
+              <h3 class="project-title">Laravel Student Tracker</h3>
+              
+              <p class="project-desc">
+                Full-stack student management with registration, session-based auth, role-based redirection, multi-table MySQL schema with SQL JOINs/subqueries, and drag-and-drop file uploads.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">Laravel 12</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">CRUD</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" aria-label="View Student Tracker on GitHub">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 5: Sunset Vista Resort (From Resume) -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="laravel php">
+            <div class="project-thumb">
+              <img src="assets/project-images/sunset-vista.svg" alt="Sunset Vista Resort Booking Platform UI" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Resort Booking</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Hospitality Booking Platform</span>
+              </div>
+
+              <h3 class="project-title">Sunset Vista Resort</h3>
+              
+              <p class="project-desc">
+                Public booking website with room availability logic, dynamic pricing with GST, server-side price verification, role-protected admin dashboard, and transactional booking emails.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">Laravel</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Bootstrap</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Flatpickr.js</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" aria-label="View Sunset Vista Resort on GitHub">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 6: 3D Portfolio -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="frontend react">
+            <div class="project-thumb">
+              <img src="assets/project-images/3d-portfolio.jpg" alt="3D Interactive Portfolio UI Preview" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">3D Experience</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Interactive Portfolio</span>
+              </div>
+
+              <h3 class="project-title">3D Portfolio</h3>
+              
+              <p class="project-desc">
+                An interactive 3D portfolio built with React and modern 3D web technologies for immersive spatial user interactions.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Three.js</span>
+                <span class="tech-tag">React Three Fiber</span>
+                <span class="tech-tag">GSAP</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-secondary" aria-label="View 3D Portfolio on GitHub">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 7: Dhruvi First Birthday & Invitation Card -->
+          <article class="project-card card-glass reveal-on-scroll" data-categories="frontend personal">
+            <div class="project-thumb">
+              <img src="assets/project-images/dhruvi-birthday.jpg" alt="Dhruvi First Birthday Interactive Memory Website" class="project-img" loading="lazy">
+              <div class="project-thumb-overlay">
+                <span class="category-pill">Interactive Story</span>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <div class="project-meta-top">
+                <span class="project-category-name">Personal Interactive Website</span>
+              </div>
+
+              <h3 class="project-title">Dhruvi First Birthday &amp; Invitation</h3>
+              
+              <p class="project-desc">
+                A personalized interactive birthday memory website created to preserve photographs, videos, music, animations, and special memories.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">GitHub Pages</span>
+              </div>
+
+              <div class="project-footer-actions">
+                <a href="https://aryanaswal3-source.github.io/invitation-card/" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" aria-label="Visit Dhruvi First Birthday Live Demo">
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- EDUCATION & CERTIFICATIONS SECTION -->
+    <!-- ========================================== -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Academic Foundation</span>
+          <h2 class="section-title">Education &amp; Certifications</h2>
+          <p class="section-subtitle">Formal computer science background and verified technical certifications</p>
+        </div>
+
+        <div class="education-grid reveal-on-scroll">
+          
+          <!-- Education Card -->
+          <div class="education-card card-glass">
+            <div class="edu-icon-column">
+              <div class="edu-badge-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+            </div>
+
+            <div class="edu-content-column">
+              <div class="edu-meta-top">
+                <span class="edu-degree-tag">Graduated 2026</span>
+                <span class="edu-cgpa-tag">CGPA: 6.2</span>
+                <span class="edu-location">📍 Dehradun, Uttarakhand</span>
+              </div>
+
+              <h3 class="edu-degree">Bachelor of Science in Information Technology (B.Sc. IT)</h3>
+              <h4 class="edu-institution">Uttaranchal University</h4>
+
+              <p class="edu-description">
+                Comprehensive curriculum focusing on Software Engineering Principles, Relational Database Management Systems (RDBMS), Object-Oriented Programming, Web Application Development, Data Structures, and Computer Networking.
+              </p>
+
+              <div class="edu-coursework">
+                <span class="course-label">Key Core Areas:</span>
+                <div class="course-tags">
+                  <span class="course-tag">Web Development</span>
+                  <span class="course-tag">Database Management (DBMS)</span>
+                  <span class="course-tag">OOP with PHP &amp; JavaScript</span>
+                  <span class="course-tag">Software Engineering</span>
+                  <span class="course-tag">Computer Networks</span>
+                  <span class="course-tag">Operating Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications Card -->
+          <div class="certifications-card card-glass">
+            <h3 class="cert-card-title">
+              <span class="cert-icon">📜</span> Certifications &amp; Workshops
+            </h3>
+            
+            <div class="cert-list">
+              <div class="cert-item">
+                <div class="cert-bullet">✓</div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Frontend Web Development</h4>
+                  <span class="cert-issuer">Ensino Research and Development Pvt. Ltd.</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-bullet">✓</div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Certificate Course in Computer Accounting</h4>
+                  <span class="cert-issuer">Sep 2022 / Feb 2023</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-bullet">✓</div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Diploma in Computer Software</h4>
+                  <span class="cert-issuer">Conferred in 2020</span>
+                </div>
+              </div>
+
+              <div class="cert-item">
+                <div class="cert-bullet">✓</div>
+                <div class="cert-info">
+                  <h4 class="cert-name">Exploring Blockchain &amp; IBM Watson</h4>
+                  <span class="cert-issuer">2-Day Intensive Workshop</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- CONTACT SECTION -->
+    <!-- ========================================== -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="section-badge">Get In Touch</span>
+          <h2 class="section-title">Let's Work Together</h2>
+          <p class="section-subtitle">
+            I'm currently seeking Junior Web Developer, PHP/Laravel Developer, or Full Stack Developer roles.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards (Left) -->
+          <div class="contact-info-column reveal-on-scroll">
+            
+            <!-- WhatsApp Priority Card -->
+            <div class="contact-card card-glass contact-card-whatsapp">
+              <div class="contact-card-icon whatsapp-icon-box">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">WhatsApp Direct</span>
+                <span class="contact-card-value">+91 9368545116</span>
+                <span class="contact-card-sub">Instant messaging &amp; quick response</span>
+                <div class="contact-card-cta">
+                  <a href="https://wa.me/919368545116?text=Hi%20Aryan,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20an%20opportunity!" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-whatsapp" aria-label="Chat with Aryan on WhatsApp">
+                    <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                    </svg>
+                    <span>Chat on WhatsApp</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Email Card -->
+            <div class="contact-card card-glass">
+              <div class="contact-card-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">Email Address</span>
+                <a href="mailto:aryanaswal3@gmail.com" class="contact-card-link">
+                  aryanaswal3@gmail.com
+                </a>
+                <span class="contact-card-sub">Direct email for interviews &amp; hiring</span>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <div class="contact-card card-glass">
+              <div class="contact-card-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">LinkedIn Profile</span>
+                <a href="https://www.linkedin.com/in/aryan-aswal-0074612a2/" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                  linkedin.com/in/aryan-aswal-0074612a2
+                </a>
+                <span class="contact-card-sub">Professional network &amp; career updates</span>
+              </div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="contact-card card-glass">
+              <div class="contact-card-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">GitHub</span>
+                <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                  github.com/aryanaswal3-source
+                </a>
+                <span class="contact-card-sub">Repositories &amp; source code</span>
+              </div>
+            </div>
+
+            <!-- Phone & Location Card -->
+            <div class="contact-card card-glass">
+              <div class="contact-card-icon">
+                <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-card-label">Phone &amp; Location</span>
+                <a href="tel:9368545116" class="contact-card-link">
+                  +91 9368545116 / 7830559051
+                </a>
+                <span class="contact-card-sub">Dehradun, Uttarakhand &bull; Open to relocation</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Contact Form (Right) -->
+          <div class="contact-form-column reveal-on-scroll">
+            <div class="contact-form-container card-glass">
+              <h3 class="form-header-title">Send a Direct Message</h3>
+              <p class="form-header-sub">Fill out the form below to reach out regarding job roles, freelance, or inquiries.</p>
+
+              <form id="contact-form" class="contact-form" novalidate>
+                
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Hiring Manager / John Doe" required autocomplete="name">
+                  </div>
+                  <span class="error-feedback" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. recruiter@company.com" required autocomplete="email">
+                  </div>
+                  <span class="error-feedback" id="email-error">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-subject" class="form-label">Subject <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <input type="text" id="contact-subject" name="subject" class="form-input" placeholder="e.g. Job Opportunity: Junior Web / PHP Developer" required>
+                  </div>
+                  <span class="error-feedback" id="subject-error">Please enter a subject.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">Message <span class="required-star">*</span></label>
+                  <div class="input-wrapper">
+                    <textarea id="contact-message" name="message" rows="5" class="form-textarea" placeholder="Write your message, interview details, or project description here..." required></textarea>
+                  </div>
+                  <span class="error-feedback" id="message-error">Please write your message.</span>
+                </div>
+
+                <button type="submit" id="submit-btn" class="btn btn-primary btn-submit w-full">
+                  <span class="btn-text">Send Message</span>
+                  <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <p class="form-note">
+                  🔒 Note: Submitting prepares an email directly to <strong>aryanaswal3@gmail.com</strong>.
+                </p>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================== -->
+  <!-- FOOTER -->
+  <!-- ========================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Footer Brand Col -->
+        <div class="footer-brand-col">
+          <a href="#home" class="footer-brand">
+            <span class="brand-code">&lt;</span>
+            <span class="brand-name">Aryan Aswal</span>
+            <span class="brand-code">/&gt;</span>
+          </a>
+          <p class="footer-tagline">
+            PHP &amp; Laravel Developer | Full-Stack Web Developer
+          </p>
+          <p class="footer-bio">
+            B.Sc. IT graduate (2026) from Uttaranchal University crafting robust backend systems, 15+ module enterprise dashboards, and intuitive web solutions.
+          </p>
+        </div>
+
+        <!-- Quick Links Col -->
+        <div class="footer-links-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-menu">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#skills" class="footer-link">Skills</a></li>
+            <li><a href="#services" class="footer-link">Services</a></li>
+            <li><a href="#experience" class="footer-link">Experience</a></li>
+            <li><a href="#projects" class="footer-link">Projects</a></li>
+            <li><a href="#education" class="footer-link">Education</a></li>
+            <li><a href="#contact" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social & Contact Col -->
+        <div class="footer-social-col">
+          <h4 class="footer-heading">Connect</h4>
+          <div class="footer-social-links">
+            <a href="https://wa.me/919368545116?text=Hi%20Aryan,%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" rel="noopener noreferrer" class="footer-social-btn footer-social-whatsapp" aria-label="WhatsApp Chat" title="WhatsApp: +91 9368545116">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>WhatsApp Chat</span>
+            </a>
+
+            <a href="https://github.com/aryanaswal3-source" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub Profile" title="GitHub Profile">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/aryan-aswal-0074612a2/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:aryanaswal3@gmail.com" class="footer-social-btn" aria-label="Email Aryan Aswal" title="Email: aryanaswal3@gmail.com">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>aryanaswal3@gmail.com</span>
+            </a>
+          </div>
+
+          <div class="footer-cv-btn-wrap">
+            <a href="assets/Aryan-Aswal-CV.pdf" download="Aryan-Aswal-CV.pdf" target="_blank" class="btn btn-sm btn-outline w-full">
+              <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV (PDF)</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; 2026 Aryan Aswal. All Rights Reserved.
+        </p>
+        <p class="footer-built-with">
+          Designed for <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer" class="github-pages-link">GitHub Pages</a> &bull; HTML5 &bull; CSS3 &bull; Vanilla JS
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top" title="Back to top">
+    <svg class="icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Interactive Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Main Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

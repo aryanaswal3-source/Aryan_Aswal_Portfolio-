@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1222"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#162038" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="750" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="rgba(255,255,255,0.03)" stroke-width="1">
+    <line x1="0" y1="150" x2="1200" y2="150"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="450" x2="1200" y2="450"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+
+  <!-- Ambient Glows -->
+  <circle cx="200" cy="150" r="180" fill="#38bdf8" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1000" cy="500" r="220" fill="#6366f1" opacity="0.07" filter="url(#glow)"/>
+
+  <!-- Top Navigation Bar -->
+  <rect x="40" y="40" width="1120" height="60" rx="12" fill="#121a2d" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="70" cy="70" r="6" fill="#f43f5e"/>
+  <circle cx="90" cy="70" r="6" fill="#f59e0b"/>
+  <circle cx="110" cy="70" r="6" fill="#10b981"/>
+  
+  <text x="140" y="76" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="16">Travancore Portal — NBFC / Microfinance Admin</text>
+  <rect x="940" y="52" width="195" height="36" rx="8" fill="url(#accentGrad)"/>
+  <text x="965" y="75" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">15+ Active Modules</text>
+
+  <!-- Left Sidebar -->
+  <rect x="40" y="115" width="220" height="595" rx="12" fill="#121a2d" stroke="rgba(255,255,255,0.08)"/>
+  <rect x="55" y="140" width="190" height="38" rx="8" fill="rgba(56, 189, 248, 0.12)" stroke="rgba(56, 189, 248, 0.3)"/>
+  <text x="75" y="164" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">📊 Dashboard Overview</text>
+  <text x="75" y="210" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">💳 Transactions</text>
+  <text x="75" y="255" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">📑 Account Panel</text>
+  <text x="75" y="300" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">📈 MIS Reports</text>
+  <text x="75" y="345" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">👥 User Management</text>
+  <text x="75" y="390" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">⚙️ Configuration</text>
+  <text x="75" y="435" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">🛠️ Correction Panel</text>
+  <text x="75" y="480" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">📄 Voucher &amp; Loans</text>
+
+  <!-- Metric Stat Cards -->
+  <rect x="280" y="115" width="265" height="120" rx="12" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="305" y="150" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">TOTAL DISBURSED</text>
+  <text x="305" y="195" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="28">₹ 4.82 Cr</text>
+  <rect x="470" y="135" width="55" height="22" rx="11" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="480" y="150" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11">+18.4%</text>
+
+  <rect x="565" y="115" width="265" height="120" rx="12" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="590" y="150" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">ACTIVE ACCOUNTS</text>
+  <text x="590" y="195" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="28">12,450</text>
+  <rect x="755" y="135" width="55" height="22" rx="11" fill="rgba(56, 189, 248, 0.15)"/>
+  <text x="765" y="150" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="11">+9.2%</text>
+
+  <rect x="850" y="115" width="310" height="120" rx="12" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="875" y="150" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">RECOVERY RATE</text>
+  <text x="875" y="195" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="28">98.6%</text>
+  <text x="1010" y="193" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="13">✓ Verified</text>
+
+  <!-- Main MIS Report & Transaction Table Card -->
+  <rect x="280" y="255" width="880" height="455" rx="12" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.08)"/>
+  <text x="310" y="295" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="18">MIS Reporting &amp; Transaction Ledger</text>
+  
+  <!-- Export Buttons (Excel, PDF, Print) -->
+  <rect x="850" y="275" width="80" height="30" rx="6" fill="#1e293b" stroke="rgba(255,255,255,0.1)"/>
+  <text x="867" y="295" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">📥 Excel</text>
+  <rect x="940" y="275" width="70" height="30" rx="6" fill="#1e293b" stroke="rgba(255,255,255,0.1)"/>
+  <text x="955" y="295" fill="#f43f5e" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">📄 PDF</text>
+  <rect x="1020" y="275" width="70" height="30" rx="6" fill="#1e293b" stroke="rgba(255,255,255,0.1)"/>
+  <text x="1035" y="295" fill="#a5b4fc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">🖨️ Print</text>
+
+  <!-- Table Header -->
+  <rect x="305" y="325" width="830" height="40" rx="6" fill="#0f172a"/>
+  <text x="325" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">TXN ID</text>
+  <text x="420" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">BORROWER / CLIENT</text>
+  <text x="610" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">MODULE</text>
+  <text x="750" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">AMOUNT</text>
+  <text x="890" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">VOUCHER STATUS</text>
+  <text x="1050" y="350" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">ACTION</text>
+
+  <!-- Table Rows -->
+  <!-- Row 1 -->
+  <line x1="305" y1="415" x2="1135" y2="415" stroke="rgba(255,255,255,0.05)"/>
+  <text x="325" y="395" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">#TRV-8942</text>
+  <text x="420" y="395" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">Sharma Micro-Ventures</text>
+  <text x="610" y="395" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Loan Panel</text>
+  <text x="750" y="395" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 2,50,000</text>
+  <rect x="890" y="380" width="85" height="22" rx="11" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="905" y="395" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11">Approved</text>
+  <text x="1050" y="395" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">View ↗</text>
+
+  <!-- Row 2 -->
+  <line x1="305" y1="475" x2="1135" y2="475" stroke="rgba(255,255,255,0.05)"/>
+  <text x="325" y="455" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">#TRV-8943</text>
+  <text x="420" y="455" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">Greenfield Agrotech</text>
+  <text x="610" y="455" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Accounting</text>
+  <text x="750" y="455" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 1,20,000</text>
+  <rect x="890" y="440" width="85" height="22" rx="11" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="905" y="455" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11">Disbursed</text>
+  <text x="1050" y="455" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">View ↗</text>
+
+  <!-- Row 3 -->
+  <line x1="305" y1="535" x2="1135" y2="535" stroke="rgba(255,255,255,0.05)"/>
+  <text x="325" y="515" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">#TRV-8944</text>
+  <text x="420" y="515" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">Devbhoomi Logistics</text>
+  <text x="610" y="515" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Transaction</text>
+  <text x="750" y="515" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 5,00,000</text>
+  <rect x="890" y="500" width="85" height="22" rx="11" fill="rgba(245, 158, 11, 0.15)"/>
+  <text x="905" y="515" fill="#f59e0b" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11">Pending</text>
+  <text x="1050" y="515" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Verify ↗</text>
+
+  <!-- Row 4 -->
+  <text x="325" y="575" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="12">#TRV-8945</text>
+  <text x="420" y="575" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="500" font-size="13">Sunrise Retailers</text>
+  <text x="610" y="575" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">MIS Report</text>
+  <text x="750" y="575" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">₹ 75,000</text>
+  <rect x="890" y="560" width="85" height="22" rx="11" fill="rgba(16, 185, 129, 0.15)"/>
+  <text x="905" y="575" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="11">Approved</text>
+  <text x="1050" y="575" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">View ↗</text>
+
+  <!-- Bottom Badges -->
+  <rect x="305" y="640" width="830" height="45" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)"/>
+  <text x="325" y="668" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Tech Stack: Laravel • Blade • Bootstrap 5 • MySQL • JavaScript • Laravel Breeze</text>
+  <text x="965" y="668" fill="#10b981" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="12">🔒 Role-Based Access</text>
+</svg>
