@@ -1,3 +1,4 @@
+
 # 💼 Aryan Aswal — Developer Portfolio
 
 A modern, high-performance, and recruiter-focused personal portfolio website for **Aryan Aswal** (*PHP & Laravel Developer | Full-Stack Web Developer*).
@@ -113,3 +114,4 @@ assets/Aryan-Aswal-CV.pdf
 ## 📄 License
 
 &copy; 2026 **Aryan Aswal**. All Rights Reserved.
+
